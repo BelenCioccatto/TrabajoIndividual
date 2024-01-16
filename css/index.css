@@ -33,10 +33,6 @@ img{
 
 .btn{
     margin: 20px;
-    color: white;
+    color: white !important;
 }
 
-.btn:hover{
-    color: rgb(51, 70, 80);
-    font-size: 18px;
-}
