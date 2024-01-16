@@ -1,4 +1,18 @@
 body{
-    background-color:rgb(51, 70, 80) ;
-    font-family: sans-serif
+    background-color:rgb(51, 70, 80) !important ;
+    font-family: sans-serif !important;
+}
+
+.texto{
+    color: rgb(239, 239, 239);
+    margin-top: 60px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 15px;
 }

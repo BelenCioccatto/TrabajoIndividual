@@ -16,12 +16,13 @@
 <body>
     <div class="texto text-center">
         <h1> Listado de empleados</h1>
+        <h3> Usted sólo puede acceder al listado en modo consulta </h3>
     </div>
 
     
     <div class="text-center">
       <button type="button" class="btn btn-outline-light w-15" id="mostrarDatos"> Mostrar datos </button>
-      <button type="button" class="btn btn-outline-light w-15" onclick="redireccionaMenu()"> Volver al menu </button>
+      <button type="button" class="btn btn-outline-light w-15" onclick="redireccionaInicio()"> Volver al inicio </button>
     </div>  
 
     <!-- tabla copiada de boostrap -->
@@ -43,14 +44,9 @@
       </tbody>
     </table>
   
-    <div class="botones text-center">
-        <button onclick="agregarEmpleado()" type="button" class="btn btn-success w-25"> Registrar nuevo empleado </button>
-        <button onclick="borrarLocalStorage()" type="button" class="btn btn-danger w-25"> Borrar contenido de LocalStorage </button>
-    </div>
-
 
     <!-- conecto con el listado.js -->
-    <script src="../js/listado.js"></script>
+    <script src="../js/listadoInvitado.js"></script>
 
     <!-- esto lo copie de getboostrap -> incluir a traves de CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 

@@ -1,4 +1,54 @@
 body{
-    background-color:rgb(51, 70, 80) ;
-    font-family: sans-serif
+    background-color:rgb(51, 70, 80);
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-padre{
+    margin-top: 80px;  
+    text-align: center; 
+}
+
+.menu{
+    background-color: rgb(239, 239, 239);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 900px;
+    text-align: center; 
+    overflow: auto;
+}
+
+h1{
+   color: rgb(239, 239, 239); 
+}
+
+button{
+    background-color: rgb(93, 121, 137);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 250px;
+    float: center;
+}
+
+.bajar-botones{
+    margin-top: 80px;
+}
+
+.boton{
+    text-decoration: none;
+    color:rgb(239, 239, 239);
+}
+
+.invalido{
+    background-color: rgb(141, 170, 186);
+}
+
+img{
+    margin-left:60px;
+    float: left;
 }

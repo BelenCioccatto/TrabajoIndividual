@@ -26,5 +26,9 @@ const login =() => {
 }
 
 function redireccionLogin(){
-        window.location.href = './pages/login.html';
+    window.location.href = './pages/login.html';
+}
+
+function redireccionaInicio(){
+    window.location.href = '../index.html'
 }

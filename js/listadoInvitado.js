@@ -43,16 +43,6 @@ boton.addEventListener('click', (e)=>{
 })
 
 
-function agregarEmpleado(){
-    window.location.href = '../pages/registroEmpleados.html'
-}
-
-
-function borrarLocalStorage(){
-    localStorage.clear() /* borra todo */
-    location.reload() 
-}
-
-function redireccionaMenu(){
-    window.location.href = '../pages/menuAdmin.html'
+function redireccionaInicio(){
+    window.location.href = '../index.html'
 }

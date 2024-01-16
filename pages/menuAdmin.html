@@ -9,6 +9,30 @@
     <title>Menu Admin</title>
 </head>
 <body>
-    <h1>MENU DEL ADMIN</h1>
+    <div class="contenedor-padre">
+        <h1>Bienvenido administrador</h1>
+
+        <div class="container menu">
+            <img src="../assets/admin.png">
+
+            <button type="button" class="bajar-botones">
+                <a class="boton" href="./listadoEmpleados.html"> Ver listado de empleados </a>
+            </button>
+            <button type="button">
+                <a class="boton" href="./registroEmpleados.html"> Registrar empleado nuevo </a>
+            </button>
+            <button type="button" class="invalido" onclick="mostrarAlerta()">
+                <a class="boton"> Buscar empleado por legajo </a>
+            </button>
+            <button type="button">
+                <a class="boton" href="../index.html"> Cerrar sesión </a>
+            </button>
+        </div>
+        
+    </div>
+
+    <!-- conecto con el menu.js -->
+    <script src="../js/menu.js"></script>
+
 </body>
 </html>
