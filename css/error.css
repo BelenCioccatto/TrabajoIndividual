@@ -1,0 +1,30 @@
+body{
+    background-color:rgb(51, 70, 80) ;
+    font-family: sans-serif !important;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div{
+    background-color: rgb(239, 239, 239);
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 35px;
+    text-align: center;
+} 
+
+h3{
+    font-weight: bold;
+}
+
+img{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
