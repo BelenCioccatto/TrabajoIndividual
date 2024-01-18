@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(51, 70, 80) !important;
+    font-family: sans-serif !important;
+    color: rgb(239, 239, 239);
+
+}
+
+#contenedorTarjetas {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)) !important;
+    gap: 20px !important;
+    justify-content: space-around !important;
+    box-shadow: none !important;
+
+}
+  
+.card{
+    border: 0px ;
+    box-shadow: 0 4px 15px rgba(222, 214, 214, 0.555) !important; 
+}
+
+
+        
